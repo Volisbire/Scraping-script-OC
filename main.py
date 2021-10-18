@@ -38,13 +38,11 @@ def extraction_donnees_livre(url):
     data = result.get("category")
     creation_csv(data, result)
     url_entiere_image = "http://books.toscrape.com/"+result.get("image_url")
-    print(url_entiere_image)
-    titre_de_limage = result.get("title")
-    print(titre_de_limage)
+    titre_de_limage = result.get("universal_product_code (upc)")
     f = open(titre_de_limage, 'wb')
     f.write(urllib.request.urlopen(url_entiere_image).read())
     f.close()
-    print("download successful")
+
 
 def lien_nb_page(url_de_base, url_cat):
     lien_suivant = parsing(url_de_base).find("li", class_="next").find("a").attrs['href']
