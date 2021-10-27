@@ -17,4 +17,4 @@ Telechargement des bibliotheques nécessaires:
 Cliquer en haut a droite sur la fleche verte ( Run ) pour éxécuter le script
 * Choisissez la catégorie a scraper ( Books = Toutes)
 
-Note : Le script est case sensitive
+Note : Le script est case sensitive | Nom de l'image = UPC du livre associé
