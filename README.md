@@ -39,6 +39,6 @@ py -m pip install -r requirements.txt
 
 Utilisation
 -----------
-Rendez vous dans le dossier ou se trouve le main.py, puis:
+Depuis la console:
 
 py main.py
