@@ -15,7 +15,7 @@ Le script extrait les donees suivantes:
 * category
 * review_rating
 * image_url
-
+* image_associee_au_livre.jpeg
 
 Le script recupere page(s), ouvrage(s) et categorie(s) vers un fichier CSV
 --------------------------------------------------------------------------
@@ -27,6 +27,13 @@ Installation
 ------------
 Python3 doit etre installe sur votre systeme : https://www.python.org/
 L'utilisation d'un environnement virtuel est fortement recommandé
-Pour installer les bibliotheques necessaires:
+Pour installer les bibliotheques necessaires, rendez vous depuis la console dans le dossier contenant le fichier requirements.txt:
 
-python -m pip -r requirments.txt
+py -m pip install -r requirements.txt
+
+
+Utilisation
+-----------
+Rendez vous dans le dossier ou se trouve le main.py, puis:
+
+py main.py
