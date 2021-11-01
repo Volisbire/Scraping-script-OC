@@ -36,9 +36,11 @@ def extraction_donnees_livre(url):
     result["review_rating"] = soup.find(class_="star-rating").attrs['class'][1]
     result["image_url"] = soup.find('img').attrs['src'].replace("../", "")
     data = result.get("category")
+    data = str(data)+(".csv")
     creation_csv(data, result)
     url_entiere_image = "http://books.toscrape.com/"+result.get("image_url")
     titre_de_limage = result.get("universal_product_code (upc)")
+    titre_de_limage = str(titre_de_limage)+(".jpeg")
     f = open(titre_de_limage, 'wb')
     f.write(urllib.request.urlopen(url_entiere_image).read())
     f.close()
