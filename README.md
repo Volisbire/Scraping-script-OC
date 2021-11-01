@@ -25,13 +25,14 @@ Le script est case sensitive | Nom de l'image = UPC du livre associé
 
 Installation
 ------------
-Python3 doit etre installe sur votre systeme : https://www.python.org/
-L'utilisation d'un environnement virtuel est fortement recommandé:
+1. Python3 doit etre installe sur votre systeme : https://www.python.org/
+
+2. L'utilisation d'un environnement virtuel est fortement recommandé:
 
 py -m venv c:\path\to\myenv
 
 
-Pour installer les bibliotheques necessaires:
+3. Pour installer les bibliotheques necessaires:
 
 py -m pip install -r requirements.txt
 
