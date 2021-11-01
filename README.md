@@ -1,4 +1,4 @@
-Utilisation du script python de scraping pour le site : https://books.toscrape.com/
+Script python de scraping pour le site : https://books.toscrape.com/
 ===================================================================================
 
 Python 3 doit etre installé:
